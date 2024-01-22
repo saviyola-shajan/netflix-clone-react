@@ -1,8 +1,11 @@
 .banner{
-    background-image: url('https://wallpaperaccess.com/full/2703652.png');
     background-size: cover;
     height: 440px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 105px;
+    /* margin-top: 60px; */
 }
 .content{
     padding-top: 140px;

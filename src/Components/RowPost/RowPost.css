@@ -11,7 +11,17 @@
 .post{
     max-height: 250px;
     margin-right: 10px;
+    cursor: pointer;
 }
 .posters::-webkit-scrollbar{
     display: none;
+}
+.smallPost{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+}
+
+.post:hover{
+    transform: scale(1.1);
 }
